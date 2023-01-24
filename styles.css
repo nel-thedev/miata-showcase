@@ -1,7 +1,40 @@
 /* styles */
 
+body {
+    font-family: helvetica, sans-serif, 'courier new';
+    background-color: black;
+}
+
 header {
-    height: 50px;
-    background-color: bisque;
+    height: 100px;
+    background-color: rgb(150, 150, 150);
     display: flex;
 }
+
+.header-left {
+    flex: 1;
+    display: flex;
+}
+
+.header-right {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+}
+
+.logo {
+    flex: 1;
+    height: 80px;
+    padding: 10px;
+}
+
+.header-navs {
+    padding: 30px;
+    margin: 10px;
+    align-items: center;
+}
+
+a:link { text-decoration: none; color: black; }
+a:visited { text-decoration: none; color: black; }
+a:hover { text-decoration: underline; color: black; }
+a:active { text-decoration: underline; color: black; }
