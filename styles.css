@@ -7,7 +7,7 @@ body {
 
 header {
     height: 100px;
-    background-color: rgb(150, 150, 150);
+    background-color: rgb(170, 170, 170);
     display: flex;
 }
 
@@ -54,3 +54,15 @@ main img {
     max-width: 80%;
     border-radius: 10px;
 }
+
+footer {
+    height: 40px;
+    padding: 10px;
+    background-color: rgb(170, 170, 170);
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.foot-left {flex: 1;}
+.foot-right {flex: 1;}
