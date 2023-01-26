@@ -2,13 +2,14 @@
 
 body {
     font-family: helvetica, sans-serif, 'courier new';
-    background-color: black;
 }
 
 header {
     height: 100px;
-    background-color: rgb(170, 170, 170);
+    background-color: #1f2937;
     display: flex;
+    color: #f9faf8;
+    padding: 0 100px 0 100px;
 }
 
 .header-left {
@@ -20,12 +21,13 @@ header {
     flex: 1;
     display: flex;
     justify-content: right;
+    color: #e5e7eb;
 }
 
 .logo {
     flex: 1;
     height: 80px;
-    padding: 10px;
+    padding: 10px 10px 10px 0;
 }
 
 .header-navs {
@@ -39,19 +41,39 @@ a:visited { text-decoration: none; color: black; }
 a:hover { text-decoration: underline; color: black; }
 a:active { text-decoration: underline; color: black; }
 
-main {
+.main-1 {
+    background-color: #1f2937;
     display: flex;
-    color: white;
-    flex-direction: column;
+    color: #f9faf8;
+    padding: 30px 100px 60px 100px;
     align-items: center;
+    justify-content: space-between;
+}
+
+.main-1-text h1 {
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.main-1-text p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.main-1-text button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    height: 30px;
+    width: 200px;
+    border-radius: 30px;
 }
 
 main img {
     padding: 0;
-    display: block;
+    flex: 1;
     margin: 0 auto;
-    max-height: 80%;
-    max-width: 80%;
+    height: auto;
+    width: 500px;
     border-radius: 10px;
 }
 
